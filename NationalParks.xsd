@@ -1,12 +1,10 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://brandonlee11.github.io/cse445_a4/NationalParks.xml" targetNamespace="https://brandonlee11.github.io/cse445_a4/NationalParks.xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xsd:element name="NationalParks" type="NationalParksType"/>
-
     <xsd:complexType name="NationalParksType">
         <xsd:sequence>
             <xsd:element name="NationalPark" type="NationalParkDetails" minOccurs="1" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
-
     <xsd:complexType name="NationalParkDetails">
         <xsd:sequence>
             <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
@@ -15,7 +13,6 @@
         </xsd:sequence>
         <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
     </xsd:complexType>
-
     <xsd:complexType name="AddressDetails">
         <xsd:sequence>
             <xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
@@ -26,7 +23,6 @@
         </xsd:sequence>
         <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
-
     <xsd:simpleType name="PhoneType">
         <xsd:restriction base ="xsd:string">
             <xsd:pattern value="\d{3}\-\d{3}\-\d{4}"/>

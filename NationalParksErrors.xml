@@ -10,7 +10,6 @@
             <Zip>94123</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark>
         <Name>Joshua Tree</Name>
         <Address NearestAirport="Palm Springs">
@@ -21,7 +20,6 @@
             <Zip>92277</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark Rating="4.1">
         <Name>Pinnacles</Name>
         <Phone>831-389-4486</Phone>
@@ -32,7 +30,6 @@
             <State>CA</State>
             <Zip>95043</Zip>
     </NationalPark>
-
     <NationalPark Rating="4.9">
         <Name>Yosemite</Name>
         <Name>Yosemite</Name>
@@ -45,7 +42,6 @@
             <Zip>95389</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark>
         <Name>Yellowstone</Name>
         <Phone>307-344-7381</Phone>
@@ -58,7 +54,6 @@
             <Zip>82190</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark>
         <Name>Grand Teton</Name>
         <Phone>307-739-3399</Phone>
@@ -70,7 +65,6 @@
             <Zip>83012</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark Rating="3.6">
         <Name>Everglades</Name>
         <Phone>305-242-7700</Phone>
@@ -82,7 +76,6 @@
             <Zip>33034</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark Rating="4.3">
         <Name>Hawai'i Volcanoes</Name>
         <Phone>808-985-6011</Phone>
@@ -94,7 +87,6 @@
             <Zip>96718</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark>
         <Name>Bryce Canyon</Name>
         <Phone>435-834-5322</Phone>
@@ -106,7 +98,6 @@
             <Zip>84764</Zip>
         </Address>
     </NationalPark>
-
     <NationalPark>
         <Name>Zion</Name>
         <Phone>435-772-3256</Phone>
