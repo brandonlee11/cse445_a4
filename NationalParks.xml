@@ -1,4 +1,4 @@
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://brandonlee11.github.io/cse445_a4/NationalParks.xsd">
+<NationalParks xmlns="https://brandonlee11.github.io/cse445_a4/NationalParks.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://brandonlee11.github.io/cse445_a4/NationalParks.xsd">
     <NationalPark Rating="4.5">
         <Name>Alcatraz Island</Name>
         <Phone>415-981-7625</Phone>
